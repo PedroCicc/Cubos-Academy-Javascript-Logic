@@ -11,7 +11,7 @@ const novoArray = array.map(x => x * 5);
 console.log(novoArray);
 
 // Questão 3
-cores = ["Azul", "Amarelo", "Verde", "Vermelho"];
+const cores = ["Azul", "Amarelo", "Verde", "Vermelho"];
 
 const coresAlterados = cores.map(x => x.slice(0, -1) + x.slice(-1).toUpperCase());
 
