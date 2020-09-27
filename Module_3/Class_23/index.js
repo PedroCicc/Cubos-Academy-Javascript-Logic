@@ -42,5 +42,3 @@ const {altura, peso, ...rDados} = dados;
 const dadosCompletos = {...rDados, ...trabalho};
 
 console.log(dadosCompletos);
-
- 
