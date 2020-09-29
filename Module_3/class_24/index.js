@@ -57,3 +57,17 @@ const ehQuadradoPerfeito = (num) => {
 };
 
 console.log(numeros.some(ehQuadradoPerfeito));
+
+// every();
+
+const temImpar = numeros.every((x) => x % 2 !== 0);
+
+console.log(temImpar);
+
+// Exercício resolvido 5
+
+const precos = [100, 300, 500, 750];
+
+const centavos = precos.every((x) => x > 0 && Math.floor(x) === x);
+
+console.log(centavos);
